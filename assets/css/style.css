@@ -1,5 +1,5 @@
 :root {
-
+    --header-width: 200px;
 }
 
 * {
@@ -11,25 +11,48 @@
 
 header {
     position: fixed;
-    width: 150px;
+    width: var(--header-width);
     height: 100%;
     z-index: 2;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     padding: 2%;
 }
 
+header h1 {
+    font-family: Optima, Candara, sans-serif;
+    font-size: 140%;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+nav {
+    margin-top: 15%;
+    font-size: 90%;
+}
+
+nav li {
+    margin-top: 2%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
 #about-me {
-    margin-left: 150px;
+    margin-left: var(--header-width);
     padding: 3%;
 }
 
 #about-me p {
     width: 95%;
     font-size: 85%;
+    padding: 2%;
 }
 
 #work {
-    margin-left: 150px;
+    margin-left: var(--header-width);
     padding: 3%;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +62,7 @@ header {
     width: 100%;
     height: auto;
     font-family: Didot, "Bodoni MT", Palatino, serif;
-    font-size: 125%;
+    font-size: 180%;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-style: oblique;
@@ -55,9 +78,9 @@ h4 {
 }
 
 .main-project {
-    width: 95%; /* 1(margin of .project) + width of project*/
+    width: 98%; /* 1(margin of .project) + width of project*/
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 2% 2% 2% 0;
     padding: 2%;
 }
@@ -72,7 +95,7 @@ h4 {
 .project {
     width: 45%;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 2%;
     margin: 2% 5% 2% 0;
 }
@@ -90,24 +113,40 @@ h4 {
 }
 
 #contact {
-    margin-left: 150px;
+    margin-left: var(--header-width);
     padding: 3%;
+}
+
+#contact ul {
+    padding: 2%;
     font-size: 85%;
 }
 
 footer {
-    margin-left: 150px;
+    margin-left: var(--header-width);
     padding: 3%;
     text-align: center;
     font-size: 65%;
 }
 
-/* @media screen and (max-width:992px)
-    header - header moves to the top
+@media screen and (max-width:992px) {
+    header {
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    #about-me,
+    #work,
+    #contact {
+        margin-left: 0px;
+    }
+}
+    /* header - header moves to the top + margins reduced to 0px; */
 
 
 @media screen and (max-width:768px)
-    header - header moves to the top
+    header - header moves to the top + margins reduced to 0px;
     
     .project - width: 95%;
     
