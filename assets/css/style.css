@@ -79,16 +79,28 @@ header nav ul li a {
 #about-me {
     margin-left: var(--header-width);
     padding: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #about-me .section {
-    color: var(--sage)
+    color: var(--sage);
+    width: 100%;
+}
+
+#about-me .profile-photo {
+    padding: 3%;
+    width: 55%;
+    height: auto;
+    margin: 0 auto;
 }
 
 #about-me p {
     width: 95%;
     font-size: 85%;
-    padding: 2%;
+    margin-left: 2%;
+    padding: 0 3%;
 }
 
 #work {
@@ -99,7 +111,8 @@ header nav ul li a {
 }
 
 #work .section {
-    color: var(--orange)
+    color: var(--orange);
+    width: 100%;
 }
 
 #work .main-project h4,
@@ -123,7 +136,7 @@ header nav ul li a {
     width: 95%;
     height: auto;
     display: flex;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
 }
 
 .project {
@@ -230,6 +243,14 @@ footer {
 
     header nav {
         font-size: 80%;
+    }
+
+    #about-me .profile-photo {
+        display: none;
+    }
+
+    #about-me p {
+        padding: 3%;
     }
 
     .project {
