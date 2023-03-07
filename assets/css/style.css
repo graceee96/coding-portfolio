@@ -1,10 +1,16 @@
 :root {
     --header-width: 200px;
+    --beige: #FCF8E8;
+    --sage: #88A47C;
+    --orange: #DF7861;
+    --purple: #76549A;
+    --gold: #FBC252;
 }
 
 * {
     font-family: "Andale Mono", Consolas, monospace;
     line-height: 1.3;
+    background-color: var(--beige);
     /* for headings font-family: Palatino, Didot, "Bodoni MT", serif; */
     /* sansserif alternative font-family: Optima, Candara, sans-serif; */
 }
@@ -44,9 +50,23 @@ header nav ul li a {
     color: black;
 }
 
+.section {
+    width: 100%;
+    height: auto;
+    font-family: Didot, "Bodoni MT", Palatino, serif;
+    font-size: 180%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+
 #about-me {
     margin-left: var(--header-width);
     padding: 3%;
+}
+
+#about-me .section {
+    color: var(--sage)
 }
 
 #about-me p {
@@ -62,14 +82,8 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
-.section {
-    width: 100%;
-    height: auto;
-    font-family: Didot, "Bodoni MT", Palatino, serif;
-    font-size: 180%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-style: oblique;
+#work .section {
+    color: var(--orange)
 }
 
 h4 {
@@ -121,9 +135,18 @@ h4 {
     padding: 3%;
 }
 
+#contact .section {
+    color: var(--purple)
+}
+
 #contact ul {
     padding: 2%;
     font-size: 85%;
+}
+
+#contact ul a {
+    text-decoration: none;
+    color: black;
 }
 
 footer {
