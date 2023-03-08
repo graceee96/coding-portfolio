@@ -9,7 +9,15 @@ N/A
 ## Usage
 Scroll through to learn more about Grace Roh, their projects, and ways to contact her. For purposes of convenience, the navigation bar on the side will also take viewer to the desired section. Pictures in the Work section are links to the deployed application, and the Contact section provides links to GitHub and to email Grace Roh.
 
-![image] (assets/images/graceee96.github.io_coding-portfolio_.png)
+* Website at full width
+![image](assets/images/fullsize.png)
+
+* Website with a maximum width of 992px
+![image](assets/images/max992.png)
+
+* Website with a maximum width of 768 px
+![image](assets/images/max768.png)
+
 
 website URL: https://graceee96.github.io/coding-portfolio/
 
