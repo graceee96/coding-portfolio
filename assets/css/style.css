@@ -147,8 +147,9 @@ header nav ul li a {
     margin-bottom: 3%;
 }
 
+#work .main-project .description,
 #work .project .description {
-    font-size: 80%;
+    font-size: 70%;
 }
 
 #contact {
