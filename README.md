@@ -14,7 +14,7 @@ Scroll through to learn more about Grace Roh, their projects, and ways to contac
 website URL: https://graceee96.github.io/coding-portfolio/
 
 ## Credit
-Placeholder images by Zaie at Vectorstock (https://www.vectorstock.com/royalty-free-vectors/vectors-by_Zaie)
+All placeholder images by Zaie at Vectorstock (https://www.vectorstock.com/royalty-free-vectors/vectors-by_Zaie)
 
 ## License
 MIT License
