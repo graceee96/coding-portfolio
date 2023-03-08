@@ -14,7 +14,7 @@
 
 header, #about-me, #about-me .profile-photo, #work, #contact, footer {
     padding: 3%;
-}
+} 
 
 #about-me p,
 #work .main-project .horiseon,
@@ -96,7 +96,6 @@ header nav ul li a {
 
 #about-me .section {
     color: var(--sage);
-    width: 100%;
 }
 
 #about-me .profile-photo {
@@ -118,7 +117,6 @@ header nav ul li a {
 
 #work .section {
     color: var(--orange);
-    width: 100%;
 }
 
 #work .main-project h4,
@@ -231,7 +229,7 @@ footer {
         padding: 3%;
     }
 
-    .project {
+    #work .project {
         width: 95%;
     }
 }
