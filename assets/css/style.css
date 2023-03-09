@@ -80,9 +80,9 @@ header nav ul li a {
 
 #about-me .section, #work .section, #contact .section {
     width: 100%;
-    font-family: Didot, "Bodoni MT", Palatino, serif;
+    font-family: Optima, Candara, sans-serif;
     font-size: 180%;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 2px;
     font-style: oblique;
 }
