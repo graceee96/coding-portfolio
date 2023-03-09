@@ -80,7 +80,7 @@ header nav ul li a {
 
 #about-me .section, #work .section, #contact .section {
     width: 100%;
-    font-family: Optima, Candara, sans-serif;
+    font-family: Palatino, Bodoni, serif;
     font-size: 180%;
     text-transform: lowercase;
     letter-spacing: 2px;
@@ -121,7 +121,7 @@ header nav ul li a {
 #work .main-project h4,
 #work .project h4 {
     margin-bottom: 2%;
-    font-family: Optima, Candara, sans-serif;
+    font-family: Palatino, Bodoni, serif;;
     font-size: 110%;
     text-transform: lowercase;
     letter-spacing: 2px;
