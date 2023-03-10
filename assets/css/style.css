@@ -12,6 +12,7 @@
     background-color: var(--beige);
 }
 
+/* repeated properties */
 header, #about-me, #about-me .profile-photo, #work, #contact, footer {
     padding: 3%;
 } 
@@ -33,6 +34,7 @@ header, #about-me, #about-me .profile-photo, #work, #contact, footer {
     height: auto;
 }
 
+/* header -- to left side of webpage */
 header {
     position: fixed;
     width: var(--header-width);
@@ -119,8 +121,8 @@ header nav ul li a {
     color: var(--orange);
 }
 
-#work .main-project h4,
-#work .project h4 {
+#work .main-project h3,
+#work .project h3 {
     margin-bottom: 2%;
     font-family: Palatino, Bodoni, serif;
     font-size: 110%;
