@@ -18,7 +18,7 @@ header, #about-me, #about-me .profile-photo, #work, #contact, footer {
 } 
 
 #about-me p,
-#work .main-project .horiseon,
+#work .main-project .cineman,
 #work .project .placeholder,
 #work .project .description {
     width: 95%;
@@ -27,7 +27,7 @@ header, #about-me, #about-me .profile-photo, #work, #contact, footer {
 .section,
 #about-me .profile-photo,
 #work .main-project,
-#work .main-project .horiseon,
+#work .main-project .cineman,
 #work .project,
 #work .project .placeholder,
 #work .project .description {
@@ -137,7 +137,7 @@ header nav ul li a {
     padding: 2%;
 }
 
-#work .main-project .horiseon {
+#work .main-project .cineman {
     display: flex;
     margin-bottom: 1%;
 }
